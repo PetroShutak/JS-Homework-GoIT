@@ -24,11 +24,11 @@ button {
 }
 
 /* * */
-
+/* 
 .home-page {
   background-image: url("./raimond-klavins-ILevYb0ctVU-unsplash.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center; 
   opacity: 0.7;
 }
 
@@ -109,4 +109,4 @@ h1,
 h2,
 span {
   user-select: none;
-}
+} */

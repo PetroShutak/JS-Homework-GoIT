@@ -46,7 +46,7 @@ function onDateCheck(selectedDates) {
     refs.btnStartTimer.disabled = false;
     Report.success(
       '⏱ Are you ready? Click on start!',
-      '" The distance between dreams and reality is called action " - Arina.B',
+      '" The distance between dreams and reality is called action " - Arina B.',
       'Ok'
     );
     return;
