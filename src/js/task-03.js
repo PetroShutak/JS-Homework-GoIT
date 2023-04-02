@@ -13,12 +13,12 @@ const images = [
   },
 ];
 
-const galleryList = document.querySelector('.gallery');
+const galleryList = document.querySelector('.gallery_task');
 
 const createGalleryItem = ({ url, alt }) => {
   return `
-    <li class="gallery-item">
-      <img src="${url}" alt="${alt}" class="gallery-image">
+    <li class="gallery-item-task">
+      <img src="${url}" alt="${alt}" class="gallery-image-task">
     </li>
   `;
 };
