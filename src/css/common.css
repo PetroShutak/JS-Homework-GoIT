@@ -67,3 +67,23 @@ ul, li a{
   transform: translateY(1px);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-item {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

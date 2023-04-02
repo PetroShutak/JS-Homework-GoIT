@@ -5,7 +5,7 @@
   "homepage": "https://github.com/PetroShutak/JS-Homework-GoIT",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /https://github.com/PetroShutak/JS-Homework-GoIT/"
+    "build": "parcel build src/*.html --public-url /JS-Homework-GoIT/"
   },
   "repository": {
     "type": "git",
