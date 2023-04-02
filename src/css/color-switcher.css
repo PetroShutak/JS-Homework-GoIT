@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+button[type='button'] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.start-button {
+  background-color: green;
+  color: white;
+}
+
+.start-button:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.stop-button {
+  background-color: red;
+  color: white;
+}
+.stop-button:disabled {
+  background-color: gray;
+  color: white;
+}

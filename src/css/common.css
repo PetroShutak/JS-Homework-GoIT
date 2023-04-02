@@ -28,9 +28,7 @@ ul, li a{
 }
 
 /* homepage menu */
-#hw6-link,
-#hw7-link,
-#hw8-link {
+.hw-link {
   display: block;
   width: 100%;
   max-width: 300px;
@@ -48,22 +46,17 @@ ul, li a{
   transition: all 0.3s ease-in-out;
 }
 
-#hw6-link:hover,
-#hw7-link:hover,
-#hw8-link:hover {
+.hw-link:hover {
   background-color: #ff5722;
 }
 
-#hw6-link:focus,
-#hw7-link:focus,
-#hw8-link:focus {
+.hw-link:focus {
   outline: none;
   box-shadow: 0 0 0 2px #f44336;
 }
 
-#hw6-link:active,
-#hw7-link:active,
-#hw8-link:active {
+
+.hw-link:active {
   transform: translateY(1px);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
