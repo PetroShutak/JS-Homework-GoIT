@@ -87,7 +87,7 @@ function createMarkup({ days, hours, minutes, seconds }) {
   refs.minutesRemaining.textContent = minutes;
   refs.secondsRemaining.textContent = seconds;
 }
-
+// Shutak P. FS76 Online
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }

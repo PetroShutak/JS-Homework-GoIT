@@ -1,5 +1,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 // first variant
+
 // function createPromise(position, delay) {
 //   const shouldResolve = Math.random() > 0.3;
 //   return new Promise((resolve, reject) => {
@@ -36,8 +38,10 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 //   }
 // });
 
-// second variant
 // import { Notify } from 'notiflix/build/notiflix-notify-aio';
+// {/* <p style="margin-top: 600px;">Shutak P. FS76 Online</p> */}
+
+// second variant (approved)
 
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
