@@ -18,6 +18,7 @@ window.addEventListener('load', () => {
   if (currentTime) {
     player.setCurrentTime(currentTime);
   }
+  player.play();
 });
 
 //===============================<by TEAM>========================================\\
