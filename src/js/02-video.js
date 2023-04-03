@@ -9,7 +9,7 @@ player.on('timeupdate', throttle(saveCurrentTime, 1000));
 
 function saveCurrentTime() {
   player.getCurrentTime().then(time => {
-    localStorage.setItem('videoplayer-current-time', time);
+    localStorage.setItem('videoplayer-current-time', Math.round(time));
   });
 }
 
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
 
 // function currentTime(data) {
 //   let currentTime = data.seconds;
-//   localStorage.setItem('videoplayer-current-time', currentTime);
+//   localStorage.setItem('videoplayer-current-time', Math.round(currentTime));
 // }
 
 //============================ </by TEAM>===========================================\\
