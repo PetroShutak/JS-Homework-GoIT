@@ -14,7 +14,7 @@ const body = document.querySelector('body');
 body.style.backgroundImage =
   'url(https://amazing-ukraine.info/wp-content/uploads/2021/04/169062270_271594621282708_6514637710719845885_n.jpg)';
 // body.style.backgroundSize = 'cover';
-body.style.backgroundRepeat = 'no-repeat';
+// body.style.backgroundRepeat = 'no-repeat';
 
 searchBox.addEventListener('input', debounce(onInputSearch, DEBOUNCE_DELAY));
 function onInputSearch(event) {
