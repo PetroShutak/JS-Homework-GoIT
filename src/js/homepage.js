@@ -47,5 +47,5 @@ window.onload = function () {
   // }, 8000);
   setTimeout(function () {
     modal.style.display = 'block';
-  }, 5000);
+  }, 3000);
 };
